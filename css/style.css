@@ -1,0 +1,50 @@
+*{font-family: 'Comfortaa', cursive;}
+.nav_logo img{
+   width: 65px;
+   height: 40px;
+}
+.nav_logo {
+    font-size: 30px;
+    color: rgb(250, 128, 76)!important;
+}
+.text_color,.card_price{
+    color: #FA804C;
+}
+.btn_img{
+    width: 30px;
+}
+.card_child{
+    padding: 15px;  
+}
+.card_child_img{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    height: 300px;
+}
+.service_img{
+    width: 78px;
+    height: 82px;
+}
+.service_info{
+    width: 360px
+}
+.service_child{
+    box-shadow:0px 2px 2px #ededed;
+    border-radius: 10px;
+} 
+@media (max-width: 992px){
+    .header_text{
+        margin-top: 30px;
+    }
+    .main_header, .main_about{
+        flex-wrap: wrap-reverse;
+    }
+    .Child_about{
+        margin-top: 60px;
+    }
+    .dropdown_size{
+        width: 200px;
+        border: none;
+        box-shadow: 6px 5px 8px #beb2b2;
+    }
+}   
